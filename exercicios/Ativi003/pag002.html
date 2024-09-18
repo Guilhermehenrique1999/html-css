@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Página</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh; /* Altura da viewport para centralizar verticalmente */
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            text-align: center;
+        }
+        .container-flex {
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            height: 20vh; /* Altura total da viewport */
+        }
+        .imagem-estilizada {
+            border: 5px solid #000;    /* Adiciona uma borda preta */
+            border-radius: 50px;       /* Bordas arredondadas */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra */
+            max-width: 10%;           /* Para responsividade */
+            height: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Venha lutar</h1>
+    <div class="video-container">
+        <video width="640" height="360" controls>
+            <source src="video/meu-video.mp4" type="video/mp4">
+            </video>
+    </div>
+    <p>Aperte para voltar</p>
+    <div class="container-flex">
+        <a href="../Ativi003/index.html">
+            <img src="imagens/ff4429b5fb9f0fe8eec2d264fefcbeda.jpg" alt="image/jpg" class="imagem-estilizada">
+        </a>
+    </div>
+</body>
+</html>

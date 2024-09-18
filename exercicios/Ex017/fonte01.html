@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Abslutas
+            cm, mm, in, px, pt, pc Certo e usar o px16 
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px e geralmente = 1 em
+            */
+            font-size: 1em;
+            /*lighter, normal, bold, bolder */
+        }
+
+        h1 {
+           /*
+            font-family : 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            podemos colocar essas 4 fontes em uma so linha 
+            */
+            font: italic bold 3em 'Times New Roman Times', serif;
+            /* font-style -> font-weight -> font-size -> font-family*/
+        
+        }
+
+        h2 {
+            font: bold 2em 'Times New Roman Times';
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste debitis ea ullam obcaecati dolorum culpa autem dolorem veritatis ducimus nihil, accusantium rerum praesentium earum ipsa nemo sint velit optio repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias eius neque labore, consectetur deleniti? Voluptatem a ex veritatis dolorem, vitae qui, voluptates beatae accusantium quidem unde, perspiciatis aut sapiente!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus numquam eum cupiditate eligendi, est maiores iste exercitationem illum magnam voluptatem laudantium eveniet, vitae nisi excepturi eaque alias! Laborum, inventore animi.</p>
+    <h2>Subtitulo do Execício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et soluta impedit placeat cumque velit. Rerum natus in officia aspernatur aliquid aperiam a voluptas deserunt. Dolores totam voluptates vero rerum.</p>
+</body>
+</html>
