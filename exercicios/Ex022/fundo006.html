@@ -6,13 +6,21 @@
     <title>Teste de imagem</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper003.jpg);
             background-position: center center;
             background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;*/
+        
+        
+            background: black url('imagens/wallpaper003.jpg') center center repeat-y cover fixed;
         }
+         /*Shorthand - background
+        color > img > possition > repeat > [Size] > attchment
+        */
+
         main {
             background-color: white;
             width: 400px;
@@ -21,6 +29,8 @@
             border: 1px solid blue;
             border-radius: 15px;
         }
+
+        
     </style>
 </head>
 <body>
